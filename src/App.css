@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+.reactModal {
+  border-radius: 5px;
+  width: 25%;
+}
+
+.middleModal {
+  border-radius: 5px;
+  width: 100% !important;
+  max-width: 1000px !important;
+}
+
+.fullModal {
+  max-width: 1100px !important;
+  width: 100% !important;
+}
+
+.react-responsive-modal-overlay,
+.react-responsive-modal-container,
+.react-responsive-modal-modal {
+  animation-fill-mode: forwards !important;
+}
+
+input.react-datetime-picker__inputGroup__input {
+  padding: 0px !important;
+}
+
+div.react-datetime-picker__wrapper {
+  border: none !important;
+}
+
+input.review-date-range {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 13px;
+  font-weight: 400;
+}
